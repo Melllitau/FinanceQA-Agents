@@ -30,25 +30,30 @@ async def process_dataset(agent: ReActAgent, dataset_name: str, split: str, outp
     conceptual_questions = dataset.filter(lambda x: x["question_type"] == "conceptual")
 
     for item in conceptual_questions:
+        
         question = item["question"]
         answer = item.get("answer", "")
         question_type = item.get("question_type", "")
 
         try:
             response = await agent.run(user_msg=question)
+            tool_call =  str(response.tool_calls)
         except Exception as e:
             response = f"Error during generation: {e}"
-
+            tool_call = ["Error during generation: {e}"]
+        
+        print(tool_call)
+        print()
         results.append({
             "question": question,
             "question_type": question_type,
             "answer": answer,
-            "response": str(response)
+            "response": str(response),
+            "tool_call": tool_call
         })
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
-
 
 async def main(model_name: str, dataset_name: str, split: str, output_file: str):
     agent = create_agent(model_name)
