@@ -42,8 +42,6 @@ async def process_dataset(agent: ReActAgent, dataset_name: str, split: str, outp
             response = f"Error during generation: {e}"
             tool_call = ["Error during generation: {e}"]
         
-        print(tool_call)
-        print()
         results.append({
             "question": question,
             "question_type": question_type,
