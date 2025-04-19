@@ -1,0 +1,4 @@
+id,project_name,experiment_description,epoch,start_time,duration(s),power_consumption(kWh),CO2_emissions(kg),CPU_name,GPU_name,OS,region/country,cost
+f91b1f8b-63cd-4c48-8b92-7b68ca74ee66,Itau Agents,Inferência com modelo command-r7b,,2025-04-18 21:01:03,282.00520396232605,0.0181712787550878,0.002054608317559,"Intel(R) Xeon(R) Silver 4410Y/2 device(s), TDP:150.0",NVIDIA L40S 1 device(s),Linux,BR/Rio de Janeiro,0
+7f9d4276-9475-4d8a-b7eb-71f073889724,Itau Agents,Inferência com modelo command-r7b,,2025-04-18 21:19:42,110.28870749473572,0.0066163158189043,0.0007481002133276,"Intel(R) Xeon(R) Silver 4410Y/2 device(s), TDP:150.0",NVIDIA L40S 1 device(s),Linux,BR/Rio de Janeiro,0
+ff21424e-7d27-4de7-bcda-388da636cf31,Itau Agents,Inferência com modelo command-r7b,N/A,2025-04-18 21:22:11,316.95384311676025,0.024409031977420587,0.0027599048366549685,"Intel(R) Xeon(R) Silver 4410Y/2 device(s), TDP:150.0",NVIDIA L40S 1 device(s),Linux,BR/Rio de Janeiro,0
