@@ -11,7 +11,7 @@ load_dotenv()
 openai.api_key = os.environ['OPENAI_API_KEY']
 client = openai.OpenAI()
 
-MODEL_NAME = "gpt-4o"
+MODEL_NAME = "gpt-4.1"
 INPUT_DIRECTORY = ""
 OUTPUT_DIRECTORY = ""
 os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)

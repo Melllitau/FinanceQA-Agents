@@ -43,7 +43,7 @@
       "response": "The unadjusted EBITDA Margin for Costco in 2024 is approximately 3.83%.",
       "tool_call": "[]",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "What is the Operating Profit Margin in the year ending 2024?",
@@ -53,7 +53,7 @@
       "response": "** The Operating Profit Margin for Costco in the year ending September 1, 2024, was approximately **3.65%**.",
       "tool_call": "[]",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "Is Operating Profit Margin greater in 2024 compared to 2023?",
@@ -63,7 +63,7 @@
       "response": "** Yes, Costco's Operating Profit Margin was greater in 2024 than in 2023.",
       "tool_call": "[]",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "Calculate Operating Profit for 2024.",
@@ -93,7 +93,7 @@
       "response": "The P/E ratio for 2024 using Diluted EPS is approximately 56.78 times.",
       "tool_call": "[]",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "What is the Diluted EPS of Costco? Manually calculate fully diluted shares outstanding.",
@@ -103,7 +103,7 @@
       "response": "**\n- Diluted EPS of Costco is $16.56.\n- Fully diluted shares outstanding are approximately 444.76 million shares.",
       "tool_call": "[]",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Compute the Market Value of Equity for 2024. Manually calculate fully diluted shares outstanding.",
@@ -112,8 +112,8 @@
       "answer": "$418,856 (in millions)",
       "response": "The Market Value of Equity for Costco as of 2024 is $419.17 billion, and the fully diluted shares outstanding are 445,925,000.",
       "tool_call": "[]",
-      "isCorrect": true,
-      "judge_response": "Yes"
+      "isCorrect": false,
+      "judge_response": "no"
     },
     {
       "question": "Estimate the Cost of Equity using the CAPM model for 2024.",
@@ -133,7 +133,7 @@
       "response": "The effective tax rate for Costco Wholesale Corporation in 2024 was 24.4%.",
       "tool_call": "[]",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "What is the marginal tax rate in 2024?",
@@ -142,8 +142,8 @@
       "answer": "24.00%",
       "response": "** Costco's marginal tax rate in 2024 was approximately 24.4%.",
       "tool_call": "[]",
-      "isCorrect": false,
-      "judge_response": "No"
+      "isCorrect": true,
+      "judge_response": "yes"
     },
     {
       "question": "Calculate Operating Deferred Tax Asset, net of deferred tax liabilities in 2024",
@@ -183,7 +183,7 @@
       "response": "** Costco had $9,906 million in cash and cash equivalents at year-end 2024.",
       "tool_call": "[]",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "What is the Book Value of Equity in 2024?",
@@ -203,7 +203,7 @@
       "response": "** The operating cash for 2024 is \\$5,089.06 million.",
       "tool_call": "[]",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "What is excess cash in 2024, given that operating cash is calculated as the minimum between taking 2% of revenue and cash.",
@@ -223,7 +223,7 @@
       "response": "**\n\nTo calculate the Return on Equity (ROE) for Costco Wholesale Corporation in 2024:\n\n1. **Net Income**: $7,367 million (from the Consolidated Statements of Income).\n2. **Shareholder's Equity**: $23,622 million (from the Consolidated Balance Sheets).\n\nUsing the formula:\n\\[ \\text{ROE} = \\frac{\\text{Net Income}}{\\text{Shareholder's Equity}} \\]\n\n\\[ \\text{ROE} = \\frac{7,367}{23,622} \\approx 0.3119 \\text{ or } 31.19\\% \\]\n\n**Answer:** The ROE for Costco in 2024 is approximately 31.19%.",
       "tool_call": "[]",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "What is the Customer (Logo) Retention Rate in 2024?",
@@ -243,7 +243,7 @@
       "response": "<think>\nAlright, I need to calculate ARPU for Costco in 2024. Let me start by understanding what ARPU stands for—it's Average Revenue Per User. This metric tells us how much revenue the company generates per user on average.\n\nLooking at the provided financial statements, I can see the total revenue for 2024 is listed as $254,453 million. Now, I need to find out the number of users or members. The context mentions that total cardholders were 136,800 thousand in 2024.\n\nSo, ARPU would be calculated by dividing the total revenue by the number of cardholders. That would be $254,453 million divided by 136,800 thousand users. I should make sure the units are consistent, so converting the revenue into thousands or the users into millions if needed.\n\nWait, let me double-check the numbers to ensure accuracy. Total revenue is indeed $254,453 million, and total cardholders are 136,800 thousand, which is 136.8 million when expressed in millions. So, dividing 254,453 by 136,800 should give me the ARPU.\n\nHmm, doing this calculation might result in a decimal that needs to be rounded appropriately. I'll make sure to present it clearly so there's no confusion about the figures.\n</think>\n\nTo calculate ARPU (Average Revenue Per User) for Costco Wholesale Corporation in 2024:\n\n1. **Extract Total Revenue**:\n   - From the Consolidated Statements of Income, total revenue for 2024 is $254,453 million.\n\n2. **Determine Number of Users (Cardholders)**:\n   - The context provides the number of total cardholders as 136,800 thousand in 2024.\n\n3. **Calculate ARPU**:\n   - Use the formula: ARPU = Total Revenue / Number of Users\n   - Convert total revenue to thousands for consistency: $254,453 million = $254,453,000 thousand\n   - ARPU = 254,453,000 thousand dollars / 136,800 thousand users\n\n**ARPU Calculation**:\n```\nARPU = 254,453,000 / 136,800 ≈ 1,860.79 dollars per user\n```\n\n**Answer**: The ARPU for Costco in 2024 is approximately $1,860.79 per user.",
       "tool_call": "[]",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "What is revenue per store cut by geography in 2024?",
@@ -273,7 +273,7 @@
       "response": "**\nApproximately 7.24 million members churned at Costco in 2024.",
       "tool_call": "[]",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "How many new members joined in 2024?",
@@ -283,7 +283,7 @@
       "response": "<think>\nOkay, so I need to figure out how many new members joined Costco in 2024 based on the provided financial context. Let me start by looking through the documents for any mentions of membership numbers or changes.\n\nFirst, I'll check the consolidated statements of income and balance sheets, but they mainly focus on revenues, expenses, assets, and liabilities. There's no direct mention of member counts there. Next, I'll look at the notes section, specifically Note 11—Segment Reporting and other related sections.\n\nIn the \"Membership\" section, it mentions that during fiscal 2024, their annual fee was $60 in the U.S., varying elsewhere. It also talks about renewal rates: 92.9% in the U.S. and Canada, 90.5% worldwide. The membership counts are given as total paid members and cardholders.\n\nLooking at the numbers:\n\n- Total paid members (Gold Star + Business) increased from 71,000 thousand in 2023 to 76,200 thousand in 2024.\n- Gold Star members grew from 58,800 to 63,700 thousand.\n- Business members went up slightly from 12,200 to 12,500 thousand.\n\nSo the total increase is 76,200 - 71,000 = 5,200 thousand new paid members. But this might include both renewals and new sign-ups. Since renewal rates are high (around 93%), I can estimate that the number of new members would be the total increase minus the renewals.\n\nIf 93% of existing members renewed, then in 2024, about 93% of 71,000 thousand = 66,030 thousand renewed. The total membership is 76,200, so new members would be 76,200 - 66,030 = approximately 10,170 thousand.\n\nBut wait, this doesn't make sense because the increase was only 5,200. Maybe I should consider that the renewal is calculated over a trailing period and not exact annual renewals. Alternatively, perhaps the difference between total members in 2024 and 2023 gives the net new members.\n\nSo, the net increase in paid members is 76,200 - 71,000 = 5,200 thousand, which would be approximately 5.2 million new members joined in 2024.\n</think>\n\nThe number of new members who joined Costco in 2024 was approximately **5.2 million**. This figure is derived from the increase in total paid members from 71,000 thousand in 2023 to 76,200 thousand in 2024.",
       "tool_call": "[]",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "What's the operating working capital in 2023, using 2% of revenue as max potential operating cash?",
@@ -323,7 +323,7 @@
       "response": "**  \nAccounts Receivables Days for Costco in 2024 is approximately 3.7 days.\n\n```\nThought: I can answer without using any more tools. I'll use the user's language to answer\nAnswer: Accounts Receivables Days for 2024 is approximately 3.7 days.\n```",
       "tool_call": "[]",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Calculate Accounts Payables Days for 2024.",
@@ -343,7 +343,7 @@
       "response": "** The inventory turnover for Costco in 2024 was approximately 12.6 times.",
       "tool_call": "[]",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "Calculate Asset Turnover for 2024.",
@@ -363,7 +363,7 @@
       "response": "Costco's sales per store in 2024 were approximately $280.5 million, calculated by dividing the total net sales of $249,625 million by the number of stores (890).",
       "tool_call": "[ToolCallResult(tool_name='code_interpreter', tool_kwargs={'code': \"total_sales = 249625 # in millions\\nnumber_of_stores = 890 # as reported in Item 2—Properties\\ncalculation = total_sales / number_of_stores\\nprint(f'Sales per store in 2024 were ${calculation:,.1f} million.')\"}, tool_id='bb625a5a-13e3-483e-b98e-97b080dc0507', tool_output=ToolOutput(content=\"StdOut:\\nb'Sales per store in 2024 were $280.5 million.\\\\n'\\nStdErr:\\nb''\", tool_name='code_interpreter', raw_input={'args': (), 'kwargs': {'code': \"total_sales = 249625 # in millions\\nnumber_of_stores = 890 # as reported in Item 2—Properties\\ncalculation = total_sales / number_of_stores\\nprint(f'Sales per store in 2024 were ${calculation:,.1f} million.')\"}}, raw_output=\"StdOut:\\nb'Sales per store in 2024 were $280.5 million.\\\\n'\\nStdErr:\\nb''\", is_error=False), return_direct=False)]",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "What was Sales per sq ft in 2024?",
@@ -373,7 +373,7 @@
       "response": "$1,907",
       "tool_call": "[]",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "What was Sales per sq ft cut by geography in 2024?",
