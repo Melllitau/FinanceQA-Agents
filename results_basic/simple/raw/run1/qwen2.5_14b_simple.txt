@@ -1,0 +1,492 @@
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:140: UserWarning: 
+If you use a VPN, you may have problems with identifying your country by IP.
+It is recommended to disable VPN or
+manually set up the ISO-Alpha-2 code of your country during initialization of the Tracker() class.
+You can find the ISO-Alpha-2 code of your country here: https://www.iban.com/country-codes
+
+  warnings.warn(
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '20.263980388641357' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0010577325073526287' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.00011959675687385437' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '30.295926570892334' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0019451326510626491' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.00021993420372300269' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '40.2640655040741' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.002875578365511042' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.000325138770209968' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '50.270243883132935' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.003706424610123079' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.00041908172424200645' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '60.27287578582764' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.004527865164203073' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0005119611862512773' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '70.25961971282959' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.005388885683619109' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.000609315915361129' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '80.27659964561462' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.006286124692406322' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0007107658328456906' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '90.24431228637695' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.007189727204160902' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.000812935265247269' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '100.25644850730896' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.008088567572206778' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0009145662468218481' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '110.26871967315674' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.009016792689828624' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0010195197326462327' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '120.24368238449097' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.009874286190851699' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0011164756653134107' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '130.26501727104187' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0107120700591472' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.001211203049517715' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '140.24139785766602' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.011623587896305292' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.001314267459847343' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '150.26620602607727' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.012424810731101476' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0014048609245549128' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '160.2472803592682' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.013350515213101783' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0015095294046302055' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '170.25654292106628' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.014276518700976907' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.001614231693000758' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '180.24418210983276' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.015202936904115854' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0017189808728114756' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '190.3413646221161' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.01611976533991928' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0018226457472193334' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '200.25248098373413' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.017029021177240113' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0019254543954893625' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '210.26759791374207' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.01784017611359439' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0020171708729880044' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '220.2714467048645' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.018694339174685753' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.002113750236142543' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '230.26825857162476' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.01953824683624099' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0022091700315269324' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '240.26807236671448' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.02044802018375897' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.002312037194157443' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '250.24595427513123' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.021345741811116488' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.00241354168084113' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '260.2446746826172' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.02211951578778243' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0025010315306087712' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '270.27317333221436' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.023018351685444877' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.002602662006721567' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '280.27200174331665' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.023802354379920006' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0026913084073831753' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '290.272168636322' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.024716061805290894' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.002794620392262436' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '300.2460238933563' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.025535248460087156' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0028872450081335946' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '310.2485091686249' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.02636634504277972' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0029812162676420605' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '320.2448663711548' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.02720925332152563' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0030765230638115817' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '330.245069026947' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.028112956143392098' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.003178703838177201' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '340.25731086730957' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.028969401962809675' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.003275541310532927' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '350.24831461906433' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.02977579649952806' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0033667195344051384' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '360.24476194381714' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.030609907446591745' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.003461031625078682' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '370.24468088150024' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.03146421063386235' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.003557626832160182' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '380.28245091438293' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.03232661174466321' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.003655137663357325' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '390.26072216033936' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.03318016049293611' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0037516475667757933' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '400.26743245124817' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.03401067340098322' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0038455528307757714' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '410.27673864364624' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.03483192089432913' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0039384104636009' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '420.24722051620483' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.03568158075386113' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.004034480654258325' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '430.2443895339966' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.03651602078643075' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.004128829954300938' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '440.2444443702698' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.037346130488088526' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.004222689628157681' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '450.24562335014343' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.0381957266845532' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.004318752620495745' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '452.50765919685364' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.03835348812752052' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.004336590549090618' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'N/A' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '452.56034994125366' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.03835348812752052' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0.004336590549090618' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+/home/gabriel/projetos/itau-agents/agents/lib/python3.12/site-packages/eco2ai/emission_track.py:515: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '0' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  attributes_dataframe.loc[row_index] = attributes_array
+	Command being timed: "python simplemodel.py --model qwen2.5:14b"
+	User time (seconds): 18.76
+	System time (seconds): 2.13
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:36.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 261684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 174056
+	Voluntary context switches: 1519
+	Involuntary context switches: 459
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 3072
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+Maximum GPU VRAM used (MiB): 41232
