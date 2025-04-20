@@ -1,8 +1,8 @@
 {
   "summary": {
-    "correct": 27,
-    "incorrect": 37,
-    "accuracy": 0.4219
+    "correct": 29,
+    "incorrect": 35,
+    "accuracy": 0.4531
   },
   "results": [
     {
@@ -11,7 +11,7 @@
       "answer": "2%",
       "response": "Here's the breakdown to calculate the percentage change in Company X's EPS:\n\n**1. Pre-Acquisition EPS:**\n\n*   **Company X:** $80 / 80 shares = $1.00 EPS\n*   **Company Y:** $20 / 15 shares = $1.33 EPS\n\n**2. New Shares Issued:**\n\n*   Company Y's shares * % paid in stock = 15 * 60% = 9 new shares issued\n\n**3. Cash Paid:**\n\n*   Company Y's shares * % paid in cash = 15 * 40% = 6 shares worth of cash. (This impacts shares outstanding indirectly)\n\n**4. Post-Acquisition Shares Outstanding:**\n\n*   Original X shares + New shares issued = 80 + 9 = 89 shares\n\n**5. Post-Acquisition Combined Net Income:**\n\n*   X's original net income + Y's net income = $80 + $20 = $100\n\n**6. Post-Acquisition EPS:**\n\n*   $100 / 89 shares = $1.12 EPS\n\n**7. Percentage Change in EPS:**\n\n*   (($1.12 - $1.00) / $1.00) * 100% = **12%**\n\nTherefore, Company X's EPS increases by **12%** after the acquisition.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "You deposit $80 right now. After three years, your annual IRR is 10%. How much will your deposit be worth at the end of those three years?",
@@ -26,8 +26,8 @@
       "question_type": "conceptual",
       "answer": "$41.06",
       "response": "The present value of $75 received in 7 years with a 9% discount rate is approximately **$41.84**.\n\nHere's how to calculate it:\n\n**Present Value = Future Value / (1 + Discount Rate)^Number of Years**\n\nPresent Value = $75 / (1 + 0.09)^7\nPresent Value = $75 / (1.09)^7\nPresent Value = $75 / 1.8280\nPresent Value = $41.00 (rounded to the nearest cent)\n\n\n\n",
-      "isCorrect": false,
-      "judge_response": "no"
+      "isCorrect": true,
+      "judge_response": "yes"
     },
     {
       "question": "You have two potential investments, Company X and Company Y. Both companies are available at the same purchase price and both project a levered IRR of 25%. However, investing in Company X requires 4 turns of leverage while investing in Company Y requires 7 turns. Which company would you invest in and why?",
@@ -43,7 +43,7 @@
       "answer": "Company X",
       "response": "Company Y has a higher unlevered IRR. Here's why:\n\nWhile both have the same *levered* IRR, leverage *amplifies* returns (and losses). To achieve the same levered IRR with less leverage (Company X), the *unlevered* IRR must be lower. Conversely, to achieve the same levered IRR with *more* leverage (Company Y), the unlevered IRR must be higher. \n\n**In short: Higher leverage means a higher unlevered IRR is needed to achieve the same levered return.**\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Suppose Company X trades at $10 per share, with a P/E ratio of 2x, and it has 300 shares outstanding. Company Y trades at $8 per share, with a P/E ratio of 2x, and has 120 shares outstanding. Company X plans to buy Company Y for $9 per share, funding half of the purchase with cash (raised through debt at a 6% cost of debt that matures over four years) and half with newly issued stock. The deal also incurs $15 in financing costs and $20 in transaction fees. Is this acquisition accretive or dilutive to Company X?",
@@ -67,7 +67,7 @@
       "answer": "Decrease",
       "response": "Here's how that transaction affects the firm's equity value:\n\n**No change.**\n\nHere's why:\n\n* **Debt Financing is Neutral to Total Value:** Raising debt *doesn't* create or destroy value on its own. It simply shifts the capital structure (the mix of debt and equity).\n* **Share Buyback Reduces Equity:** A share buyback *reduces* equity because the company is using cash to repurchase its own stock.\n* **Offsetting Effects:** The increase in debt is exactly offset by the decrease in equity.  The total value of the firm (debt + equity) remains the same.\n\n**Think of it like this:** The company is simply exchanging one form of financing (equity) for another (debt).\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Consider a firm with a market cap of 800 million and net income of 80 million that takes on 100 million in debt to buy back shares. How does this transaction influence its P/E multiple (increase, decrease or no change)?",
@@ -83,7 +83,7 @@
       "answer": "15%",
       "response": "Okay, let's break down this LBO (Leveraged Buyout) scenario to determine the required revenue growth rate. Here's a step-by-step approach and the calculation:\n\n**1. Initial Investment & Financing:**\n\n*   **EBITDA:** $50 million\n*   **EBITDA Margin:** 20% (Implies Revenue = $50m / 0.20 = $250 million)\n*   **Purchase Multiple:** 10x EBITDA  => Enterprise Value (EV) = $50m * 10 = $500 million\n*   **Debt / Equity Split:** 40% Debt / 60% Equity\n    *   Debt: $500m * 0.40 = $200 million\n    *   Equity: $500m * 0.60 = $300 million\n\n**2. Exit Scenario:**\n\n*   **Exit Multiple:** 10x EBITDA\n*   **Cash at Exit:** $100 million\n\n**3.  Calculating Required EBITDA at Exit:**\n\n*   Let 'x' be the EBITDA at exit.\n*   Exit EV = 10x\n*   Exit Proceeds = Exit EV + Cash - Debt (remaining)\n\n**4. Setting up the IRR Equation**\n\nTo achieve a 25% IRR, the present value of all future cash flows (including the exit proceeds) must equal the initial equity investment of $300 million.  This is complex to solve directly, so we'll need to iterate to find the revenue growth rate.\n\nHere's the logic:\n\n*   **Years 1-5:**  Cash flow = EBITDA * (1 - Tax Rate) - Debt Service (Interest & Principal Payments). We'll assume a tax rate of 25% for simplicity.\n*   **Year 5 (Exit):** Cash Flow = Exit EV + Cash - Remaining Debt.\n\nWe need to find the revenue growth rate that makes the Net Present Value (NPV) of these cash flows equal to the initial equity investment.\n\n**5. Iteration to Find Growth Rate**\n\nThis is where it gets tricky without financial modeling software. We need to *guess* a revenue growth rate, calculate the resulting EBITDA over 5 years, calculate the cash flows, and then check if the IRR is 25%. We repeat this process until we find the growth rate that delivers the target IRR.\n\n**Here's the result of doing this iteration:**\n\n**Approximately 8.5% annual revenue growth is needed to achieve a 25% IRR.**\n\n**Important Notes:**\n\n*   **Assumptions:** This calculation relies on several assumptions (tax rate, debt amortization schedule, etc.).  A real-world model would be much more detailed.\n*   **Debt Schedule:** The exact debt repayment schedule significantly impacts the cash flows and, therefore, the IRR.\n*   **Financial Modeling:** This is best solved using a spreadsheet (Excel, Google Sheets) to create a full LBO model.\n\n\n\n**Disclaimer:** I am an AI chatbot and cannot provide financial advice. This information is for educational purposes only. Consult with a qualified financial professional before making any investment decisions.",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "If a customer buys a $75 Starbucks gift card, what is the immediate impact on Starbucks' cash flow before the card is used (cash inflow, cash outflow, or no change)?",
@@ -99,7 +99,7 @@
       "answer": "No change",
       "response": "There is **no change** to Starbucks's cash flow at the moment you use the gift card. \n\nHere's why:\n\n* **Initial Purchase:** When you *bought* the gift card, Starbucks received a $75 cash inflow.\n* **Redemption:** When you *spend* the gift card, Starbucks is simply recognizing revenue they *already received* cash for. It's an exchange of goods/services for pre-paid funds – no new cash changes hands.\n\n\n\nEssentially, the initial purchase and the later redemption offset each other in terms of cash flow.",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "Company X trades at $40 per share, owns 100 shares in total, and earns $200 of net income. Company Y trades at $30 per share, has 50 shares outstanding, and generates $50 in net income. X acquires Y entirely by issuing new shares. Is this deal accretive or dilutive to Company X?",
@@ -114,8 +114,8 @@
       "question_type": "conceptual",
       "answer": "Cost of Debt",
       "response": "Based on the information provided, **debt is cheaper** than equity. Here's why:\n\n* **Cost of Debt:** The borrowing rate *is* the cost of debt – in this case, 5%.\n* **Cost of Equity:** A P/E of 12x implies an earnings yield of 1/12 = 8.33%.  The earnings yield is a common proxy for the cost of equity.\n\nTherefore, 5% (debt) < 8.33% (equity).\n\n\n\n",
-      "isCorrect": true,
-      "judge_response": "yes"
+      "isCorrect": false,
+      "judge_response": "no"
     },
     {
       "question": "A corporation's WACC is 9%, its after-tax cost of debt is 5%, and its debt-to-equity ratio is 60%. What is its cost of equity?",
@@ -123,7 +123,7 @@
       "answer": "10.56%",
       "response": "Here's how to calculate the cost of equity:\n\n**Understanding WACC**\n\nWACC (Weighted Average Cost of Capital) is calculated as:\n\nWACC = (Weight of Equity * Cost of Equity) + (Weight of Debt * Cost of Debt)\n\n**1. Calculate the Weights of Debt and Equity**\n\n*   **Debt-to-Equity Ratio:** 60% means for every $1 of equity, there's $0.60 of debt.\n*   **Total Weight:** 1 + 0.60 = 1.60\n*   **Weight of Equity:** 1 / 1.60 = 0.625 (62.5%)\n*   **Weight of Debt:** 0.60 / 1.60 = 0.375 (37.5%)\n\n**2. Plug the Values into the WACC Formula**\n\n0.09 = (0.625 * Cost of Equity) + (0.375 * 0.05)\n\n**3. Solve for Cost of Equity**\n\n0.09 = (0.625 * Cost of Equity) + 0.01875\n0.07125 = 0.625 * Cost of Equity\nCost of Equity = 0.07125 / 0.625 \nCost of Equity = 0.114 or **11.4%** \n\nTherefore, the corporation's cost of equity is **11.4%**.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "A firm has 200 million of equity, 100 million of debt, and 70 million of cash. The company raises a 30 million term loan to finance a 60 million acquisition. How is its enterprise value affected?",
@@ -131,7 +131,7 @@
       "answer": "60M increase",
       "response": "Here's how the enterprise value (EV) is affected:\n\n**1. Initial EV:**\n\n*   Equity: $200 million\n*   Debt: $100 million\n*   Cash: $70 million\n*   Initial EV = Equity + Debt - Cash = $200M + $100M - $70M = **$230 million**\n\n**2. Impact of Financing & Acquisition:**\n\n*   **New Debt:** +$30 million (from the term loan)\n*   **Acquisition:** +$60 million\n*   **Cash Used:** -$60 million (to fund the acquisition)\n\n**3. New EV:**\n\n*   Equity: $200 million (unchanged)\n*   Debt: $100M + $30M = $130 million\n*   Cash: $70M - $60M = $10 million\n*   New EV = Equity + Debt - Cash = $200M + $130M - $10M = **$320 million**\n\n**Therefore, the enterprise value increases by $90 million ($320M - $230M).** The acquisition *directly* increases EV, and the new debt financing doesn't offset that increase when calculating EV (as debt is *added* to the calculation, and cash is *subtracted*).\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "A firm has 200 million of equity, 100 million of debt, and 70 million of cash. The company raises a 30 million term loan to finance a 60 million acquisition. How is its equity value affected?",
@@ -139,7 +139,7 @@
       "answer": "30M increase",
       "response": "Here's how the equity value is affected:\n\n1. **Initial Equity Value:** $200 million\n2. **New Debt:** +$30 million (term loan)\n3. **Acquisition Cost:** -$60 million \n4. **Net Change to Assets:** +$30 million (new debt) - $60 million (acquisition) = -$30 million\n5. **New Equity Value:** $200 million (initial) - $30 million (net asset change) = **$170 million**\n\n**Therefore, the equity value is reduced to $170 million.**\n\n**Explanation:** The acquisition is funded with a combination of debt and existing cash/assets. Since the acquisition cost exceeds the new debt, the net effect is a decrease in the company's asset base, which directly reduces equity value (Assets - Liabilities = Equity).\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Imagine a business raises 60 million in new equity and immediately pays that amount as a dividend. What is the impact on its enterprise value?",
@@ -163,7 +163,7 @@
       "answer": "3x MOIC, 25% IRR",
       "response": "Okay, let's break down the MOIC (Multiple on Invested Capital) and IRR (Internal Rate of Return) for this private equity deal.\n\n**1. Initial Investment & Deal Structure**\n\n*   **Enterprise Value (EV):** 200M EBITDA \\* 4x multiple = 800M\n*   **Equity Invested:** 800M EV \\* 50% (equity contribution) = 400M\n*   **Debt:** 800M EV \\* 50% = 400M\n\n**2. Exit Calculation**\n\n*   **Exit EV:** 300M EBITDA \\* 5x multiple = 1500M\n*   **Debt Remaining at Exit:** 400M (initial) - 400M (paid down) = 0M\n*   **Equity Proceeds at Exit:** 1500M (Exit EV) - 0M (Debt) = 1500M\n\n**3. MOIC Calculation**\n\n*   **MOIC = Equity Proceeds / Equity Invested**\n*   MOIC = 1500M / 400M = **3.75x**\n\n**4. IRR Calculation**\n\nThis requires a bit more work, as we need to account for the cash flows over the investment period.  Here's the cash flow timeline:\n\n*   **Year 0:** -400M (Initial Investment)\n*   **Year 5:** 1500M (Exit Proceeds)\n\nTo calculate IRR, we need to find the discount rate that makes the Net Present Value (NPV) of these cash flows equal to zero.  \n\nUsing a financial calculator or spreadsheet software (like Excel), inputting these cash flows yields an **IRR of approximately 28.97%**.\n\n\n\n**In Summary:**\n\n*   **MOIC: 3.75x** (The investment returned 3.75 times the original equity invested)\n*   **IRR: 28.97%** (The annualized rate of return on the investment)\n\n\n\n**Disclaimer:**  I am an AI chatbot and cannot provide financial advice. This calculation is based on the information provided and assumes a simplified model. Real-world private equity deals have more complex cash flow structures and require detailed financial modeling.",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Suppose an enterprise value is 200 million, with 60 million in senior debt, 30 million in junior debt, and 10 million in cash. How would you determine the company's equity value?",
@@ -187,7 +187,7 @@
       "answer": "no change",
       "response": "The firm's enterprise value will **decrease**. \n\nHere's why:\n\nEnterprise Value (EV) is calculated as: **Market Capitalization + Debt - Cash**.\n\nAn increased borrowing rate makes debt more expensive. This reduces the present value of future cash flows, and therefore, lowers the value of the firm – including its enterprise value. While it doesn't directly change market cap or cash, the increased cost of debt negatively impacts overall firm valuation.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Suppose a business trades at 3x revenue and 6x EBITDA. What would its EBITDA margin be?",
@@ -203,7 +203,7 @@
       "answer": "Increase",
       "response": "Here's the breakdown to determine if the deal increases or decreases Firm X's EPS:\n\n**1. Calculate Market Capitalizations:**\n\n*   **Firm X:** $60/share * 500 shares = $30,000\n*   **Firm Y:** $30/share * 200 shares = $6,000\n\n**2. Calculate Combined Shares Outstanding:**\n\n*   Firm X has 500 shares.\n*   Firm Y's 200 shares will be issued to Firm X's shareholders.\n*   Total: 500 + 200 = 700 shares\n\n**3. Calculate Combined Earnings (Estimate):**\n\n*   **Firm X Earnings:** $60 (price) * 12 (P/E) = $720 \n*   **Firm Y Earnings:** $30 (price) * 8 (P/E) = $240\n*   **Combined Earnings:** $720 + $240 = $960\n\n**4. Calculate Pro Forma EPS:**\n\n*   **Pro Forma EPS:** $960 / 700 shares = $1.37\n\n**5. Calculate Firm X's Original EPS:**\n\n*   **Firm X EPS:** $720 / 500 shares = $1.44\n\n**Conclusion:**\n\nThe pro forma EPS of $1.37 is *lower* than Firm X's original EPS of $1.44. Therefore, the deal will **decrease** Firm X's EPS.\n\n\n\n**Important Note:** This is a simplified analysis. A real deal would involve more complex factors like synergies, integration costs, and debt financing.",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "You operate a phone case business, charging $30 per case, with $14 of manufacturing costs per case, and SG&A at 12% of sales. If you sell 25 cases, what is your EBITDA?",
@@ -227,7 +227,7 @@
       "answer": "2x MOIC, 15% IRR",
       "response": "Okay, let's break down this investment analysis to calculate the MOIC (Multiple on Invested Capital) and IRR (Internal Rate of Return).\n\n**1. Calculate Yearly EBITDA & Net Income:**\n\n*   **EBITDA Margin:** 14 / 70 = 20%\n*   **Year 1 (Initial):** Revenue = 70, EBITDA = 14, D&A = 3, Taxable Income = 14 - 3 = 11, Tax = 11 * 50% = 5.5, Net Income = 11 - 5.5 = 5.5\n*   **Years 2-5:** We'll calculate this iteratively, knowing revenue grows 10% each year and EBITDA margin remains 20%.\n\n| Year | Revenue | EBITDA | D&A | Taxable Income | Tax | Net Income |\n|---|---|---|---|---|---|---|\n| 1 | 70 | 14 | 3 | 11 | 5.5 | 5.5 |\n| 2 | 77 | 15.4 | 3 | 12.4 | 6.2 | 6.2 |\n| 3 | 84.7 | 16.94 | 3 | 13.94 | 6.97 | 6.97 |\n| 4 | 93.17 | 18.63 | 3 | 15.63 | 7.82 | 7.82 |\n| 5 | 102.49 | 20.49 | 3 | 17.49 | 8.75 | 8.75 |\n\n**2. Calculate Free Cash Flow (FCF):**\n\n*   FCF = Net Income + D&A - Capital Expenditure\n*   Since CapEx is constant at 3 each year, and D&A is constant at 3 each year:\n    *   FCF Year 1 = 5.5 + 3 - 3 = 5.5\n    *   FCF Years 2-5 = 6.2 + 3 - 3 = 6.2, 6.97 + 3 - 3 = 6.97, 7.82 + 3 - 3 = 7.82, 8.75 + 3 - 3 = 8.75\n\n**3. Calculate Equity Investment:**\n\n*   Enterprise Value = Equity Value + Debt\n*   Initial Equity Investment = Enterprise Value * (1 - Debt %) = 350 * (1 - 0.60) = 140\n\n**4. Calculate Terminal Value & Exit Proceeds:**\n\n*   Terminal Enterprise Value = 450\n*   Terminal Equity Value = 450 * (1 - 0.60) = 180\n*   Total Exit Proceeds = 180\n\n**5. Calculate MOIC:**\n\n*   MOIC = (Exit Proceeds + Cumulative FCF) / Equity Investment\n*   Cumulative FCF = 5.5 + 6.2 + 6.97 + 7.82 + 8.75 = 35.24\n*   MOIC = (180 + 35.24) / 140 = 1.466\n\n**6. Calculate IRR:**\n\n*   The IRR is the discount rate that makes the Net Present Value (NPV) of all cash flows equal to zero.  This requires iteration or a financial calculator/software.\n*   Cash Flows:\n    *   Year 0: -140 (Initial Investment)\n    *   Years 1-5: 5.5, 6.2, 6.97, 7.82, 8.75\n    *   Year 5: 180 (Exit Proceeds)\n\nUsing a financial calculator or spreadsheet software (like Excel), the IRR is approximately **17.3%**.\n\n**Therefore:**\n\n*   **MOIC: 1.466x** (The investment returned 1.466 times the initial capital.)\n*   **IRR: 17.3%** (The annualized rate of return on the investment.)\n\n\n\n**Important Note:** This analysis assumes a simplified model. A real-world analysis would likely include more detailed projections, sensitivity analysis, and consider factors like working capital changes, and potentially different exit multiples.",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "You run a coffee mug shop charging $25 per mug. Your production cost per mug is $12, and you also pay a 15% overhead on the selling price. You plan to double your total revenue by increasing prices not volume. What will your EBITDA be after the price increase?",
@@ -235,7 +235,7 @@
       "answer": "$457.50",
       "response": "Here's the breakdown to calculate your new EBITDA:\n\n**1. Current Profit Per Mug:**\n\n*   Selling Price: $25\n*   Production Cost: $12\n*   Overhead (15% of selling price): $25 * 0.15 = $3.75\n*   Current Profit Per Mug: $25 - $12 - $3.75 = $9.25\n\n**2. Determine Current Revenue (Needed to Double):**\n\n*   We need to know your current volume to calculate current revenue. Let's assume you currently sell **100 mugs** (you can replace this with your actual volume).\n*   Current Total Revenue: 100 mugs * $25/mug = $2,500\n\n**3. Target Revenue:**\n\n*   Target Revenue: $2,500 * 2 = $5,000\n\n**4. New Price:**\n\n*   To achieve $5,000 in revenue with the same 100 mugs, the new price will be: $5,000 / 100 mugs = $50/mug\n\n**5. New Profit Per Mug:**\n\n*   New Selling Price: $50\n*   Production Cost: $12\n*   Overhead (15% of selling price): $50 * 0.15 = $7.50\n*   New Profit Per Mug: $50 - $12 - $7.50 = $30.50\n\n**6. New EBITDA:**\n\n*   EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) is essentially your profit.\n*   New EBITDA: 100 mugs * $30.50/mug = **$3,050**\n\n\n\n**Therefore, your EBITDA after the price increase will be $3,050 (assuming you continue to sell 100 mugs).**\n\n**Important Note:** This calculation assumes your volume remains constant. If the price increase affects volume, the EBITDA will change accordingly.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Suppose you run a business selling backpacks at $25 each and sell 20 backpacks. Producing each backpack costs $12, and your SG&A expenses are 12% of revenue. You want to double your total revenue solely by increasing volume, not by raising prices. What is your EBITDA after this increase?",
@@ -267,7 +267,7 @@
       "answer": "1.3x MOIC, 6% IRR, 11.25% LFCF yield",
       "response": "Okay, let's break down this private equity deal to calculate the MOIC, IRR, and first-year LFCF yield.\n\n**1. Initial Investment & Key Metrics**\n\n*   **Acquisition Price:** $80 million\n*   **EBITDA Multiple Paid:** 10x\n*   **Initial EBITDA:** $80 million / 10 = $8 million\n*   **Debt Financing:** 60% of $80 million = $48 million\n*   **Equity Investment:** $80 million - $48 million = $32 million\n*   **Interest Rate:** 5%\n*   **Hold Period:** 5 years\n*   **Annual Capital Expenditure:** $2 million\n*   **Exit Multiple:** 9x\n*   **EBITDA Growth:** 0% (constant $8 million)\n\n**2. Exit Value**\n\n*   **Exit EBITDA:** $8 million (no growth)\n*   **Exit Value:** $8 million * 9 = $72 million\n\n**3. Calculate Debt Paydown**\n\nWe need to assume a debt paydown schedule. Let's assume a straight-line amortization over the 5 years.\n\n*   **Annual Debt Paydown:** $48 million / 5 = $9.6 million\n*   **Year 1 Debt Balance:** $48 million\n*   **Year 2 Debt Balance:** $38.4 million\n*   **Year 3 Debt Balance:** $28.8 million\n*   **Year 4 Debt Balance:** $19.2 million\n*   **Year 5 Debt Balance:** $9.6 million\n\n**4. Calculate Free Cash Flow (FCF) for each year**\n\n*   **EBITDA:** $8 million\n*   **Capital Expenditure:** $2 million\n*   **Interest Expense:** 5% of outstanding debt\n*   **Debt Paydown:** $9.6 million per year\n\n| Year | EBITDA | CapEx | Interest | Debt Paydown | FCF     |\n| :--- | :----- | :---- | :------- | :----------- | :------ |\n| 1    | $8.0   | $2.0  | $2.4     | $9.6          | -$6.0   |\n| 2    | $8.0   | $2.0  | $1.92    | $9.6          | -$5.52  |\n| 3    | $8.0   | $2.0  | $1.44    | $9.6          | -$5.04  |\n| 4    | $8.0   | $2.0  | $0.96    | $9.6          | -$4.56  |\n| 5    | $8.0   | $2.0  | $0.48    | $9.6          | -$4.08  |\n\n**5. Calculate MOIC (Multiple on Invested Capital)**\n\n*   **Total Equity Invested:** $32 million\n*   **Proceeds at Exit:** $72 million - $9.6 million (remaining debt) = $62.4 million\n*   **MOIC:** $62.4 million / $32 million = **1.95x**\n\n**6. Calculate IRR (Internal Rate of Return)**\n\nThis requires an iterative calculation or a spreadsheet program. Using the cash flows above (initial investment of -$32 million, and annual FCFs, plus the exit proceeds), the IRR is approximately **14.4%**.\n\n**7. First-Year LFCF Yield (Leveraged Free Cash Flow Yield)**\n\n*   **Year 1 FCF:** -$6.0 million\n*   **Initial Equity Investment:** $32 million\n*   **Year 1 LFCF Yield:** -$6.0 million / $32 million = **-18.75%**\n\n\n\n**Summary:**\n\n*   **MOIC:** 1.95x\n*   **IRR:** 14.4%\n*   **Year 1 LFCF Yield:** -18.75%\n\n**Important Notes:**\n\n*   **Debt Amortization:** The straight-line debt amortization is a simplification. Real-world debt schedules are more complex.\n*   **Tax Effects:**  These calculations do *not* include tax effects, which would significantly impact the results.\n*   **Working Capital:**  This analysis assumes no changes in working capital.\n*   **Transaction Costs:**  We haven't included acquisition or exit transaction costs.\n\n\n\n**Disclaimer:** I am an AI chatbot and cannot provide financial advice. This analysis is for illustrative purposes only. Always consult with a qualified financial professional before making investment decisions.",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "You purchase a company for 150M at a 15x EBITDA multiple, hold it for 5 years without EBITDA growth, then exit at a 15x multiple. The investment is bought at 50% LTV with 4% cost of debt. You also spend 2M on capital expenditures annually. What are the MOIC and IRR of the deal? Assume add debt is paid down at exit and you only have access to a basic calculator.",
@@ -275,7 +275,7 @@
       "answer": "MOIC: 1.33x, IRR: 6%",
       "response": "Okay, let's break down this deal to calculate the MOIC (Multiple on Invested Capital) and IRR (Internal Rate of Return).  We'll do this step-by-step, keeping it calculator-friendly.\n\n**1. Initial Investment Calculation**\n\n*   **Purchase Price:** $150M\n*   **LTV (Loan-to-Value):** 50%  This means $150M * 0.50 = $75M is debt.\n*   **Equity Invested:** $150M - $75M = $75M\n*   **Annual Capital Expenditures:** $2M\n*   **Total Capital Expenditures over 5 years:** $2M * 5 = $10M\n*   **Total Invested Capital:** $75M + $10M = $85M\n\n**2. Exit Value Calculation**\n\n*   **Exit Value:** $150M (same as purchase price, no EBITDA growth)\n*   **Debt Paydown:** Assume debt is fully paid down at exit: $75M\n*   **Net Exit Proceeds to Equity:** $150M - $75M = $75M\n\n**3. MOIC Calculation**\n\n*   **MOIC = Total Exit Proceeds / Total Invested Capital**\n*   **MOIC = $75M / $85M = 0.88x**\n\n**4. IRR Calculation (Approximation - using a simplified approach)**\n\nCalculating IRR precisely without a spreadsheet or financial calculator is difficult. We'll use a simplified approach to get an *approximate* IRR.  This won't be perfectly accurate, but it's the best we can do with a basic calculator.\n\n*   **Total Cash Flows:**\n    *   Year 0 (Investment): -$85M\n    *   Years 1-5 (No intermediate cash flows - just capital expenditures): -$2M each year\n    *   Year 5 (Exit): $75M\n*   **Net Cash Flow in Year 5:** $75M - $2M = $73M\n*   **Cumulative Cash Flow:** -$85M + $73M = -$12M\n*   **Approximate IRR:** Since the total cash flow is negative, the IRR is negative. We can estimate this is around -5% to -10%. \n\n**Summary**\n\n*   **MOIC:** 0.88x (This means you lost money on your investment)\n*   **Approximate IRR:** -5% to -10% (A negative return)\n\n\n\n**Important Note:** This IRR calculation is a *very rough* approximation. A proper IRR calculation requires iterative methods or a financial calculator/spreadsheet. The lack of any operating cash flow makes the IRR highly sensitive to the capital expenditures.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "A soda company sells each beverage for $8 while spending $3 to produce each drink. They typically sell 900 drinks per month. If they switch to a membership plan offering 4 drinks a month, what should the monthly fee be to hold the same profit?",
@@ -283,7 +283,7 @@
       "answer": "$17",
       "response": "Here's how to calculate the required monthly fee:\n\n**1. Current Monthly Profit:**\n\n*   Profit per drink: $8 (selling price) - $3 (cost) = $5\n*   Total monthly profit: $5/drink * 900 drinks = $4500\n\n**2. Drinks Needed with Membership:**\n\n*   To serve the same number of customers, they need to sell 900 drinks / 4 drinks/member = 225 memberships.\n\n**3. Required Monthly Fee:**\n\n*   To maintain $4500 profit, the monthly fee should be $4500 / 225 members = $20/member.\n\n**Therefore, the monthly fee for the membership plan should be $20 to maintain the same profit.**\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "A private equity group acquires a gadget-maker via LBO. The company sells 12 gadgets in its first year. How many gadgets must it sell in year 5 to reach a 25% IRR? The company starts with EBITDA of 60, is bought at a 9x multiple, and is exited at a 10x multiple after 5 years. The deal uses 25% debt financing. Annual non-gadget revenue is 120, the initial EBITDA margin is 25%, gadget prices rise by $4 in year 5, the final EBITDA margin is 25%, and the firm finishes the period with 350 in cash. Assume a 3x MOIC corresponds to a 25% IRR.",
@@ -291,7 +291,7 @@
       "answer": "20",
       "response": "Okay, let's break down the calculation to determine the gadget sales needed in year 5 to achieve a 25% IRR (or 3x MOIC). Here's a concise approach, outlining the key steps and the final answer:\n\n**1. Initial Investment & Capital Structure:**\n\n*   **Purchase Price:** 9x EBITDA * 60 EBITDA = $540 million\n*   **Debt:** $540 million * 25% = $135 million\n*   **Equity:** $540 million - $135 million = $405 million\n\n**2. Exit Value Calculation:**\n\n*   To achieve a 3x MOIC on the $405 million equity investment, the exit value needs to be: $405 million * 3 = $1215 million.\n*   This exit value is based on a 10x EBITDA multiple. Therefore, the final EBITDA must be: $1215 million / 10 = $121.5 million.\n\n**3. EBITDA Build-Up:**\n\n*   **Year 1 EBITDA:** $60 million (given)\n*   **Non-Gadget Revenue:** $120 million (constant)\n*   **Initial Gadget Revenue:** 12 gadgets * (60/25) = $28.8 million\n*   **Total Initial Revenue:** $120 + $28.8 = $148.8 million\n*   **EBITDA Growth:** We need to find the gadget sales in year 5 that will bring EBITDA to $121.5 million.\n\n**4. Calculating Year 5 Gadget Sales:**\n\n*   **Target Year 5 EBITDA:** $121.5 million\n*   **Non-Gadget EBITDA:** $120 * 25% = $30 million\n*   **Target Gadget EBITDA:** $121.5 million - $30 million = $91.5 million\n*   **Year 5 Gadget Price:** Initial Price + $4 = (60/12)*4 = $20\n*   **Required Gadget Sales (Year 5):** $91.5 million / $20 = **4,575 gadgets**\n\n\n\n**Therefore, the company must sell 4,575 gadgets in year 5 to reach a 25% IRR, given the stated assumptions.**\n\n\n\n**Important Notes:**\n\n*   This is a simplified model. A full LBO model would include detailed projections of revenue, costs, debt schedules, and cash flow.\n*   The assumption of a constant EBITDA margin is a simplification. In reality, margins may change over time.\n*   The calculation assumes all cash flow is reinvested.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "A financial sponsor acquires a business with EBITDA of $24 and an 10x purchase multiple, financed with a 2:1 debt-to-equity structure. Five years later, the sponsor exits when EBITDA is $40 at the same 10x multiple. Over the holding period, $70 of debt is fully paid down through free cash flow. What are the MOIC and IRR on the sponsor's equity?",
@@ -315,7 +315,7 @@
       "answer": "No change",
       "response": "A dividend payment of $15 **decreases** the firm's enterprise value by $15. \n\nHere's why:\n\n* **Enterprise Value (EV)** represents the total value of the company's operations to *all* investors (debt & equity).\n* **Dividends are a cash outflow.** When a company pays a dividend, it reduces its cash balance. \n* **Cash is part of EV.**  EV is calculated (in one way) as Market Capitalization + Total Debt - Cash.  Reducing cash directly reduces EV.\n\nEssentially, the firm is distributing value to shareholders, and that value is no longer available within the firm's assets.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "If a firm disburses a $12 dividend to its shareholders, what happens to its Equity Value (increase, decrease, or no change)?",
@@ -330,8 +330,8 @@
       "question_type": "conceptual",
       "answer": "60c",
       "response": "Here's the calculation of the fair market price of the debt:\n\n**Expected Recovery Value:**\n\n*   **Scenario 1 (Default):** 0% recovery, probability 40%\n*   **Scenario 2 (Successful Restructuring):** Full recovery of $150 million, probability 60%\n\n**Expected Value of the Note:**\n\n(0.40 * $0) + (0.60 * $150 million) = $90 million\n\n**Therefore, the fair market price of this debt is $90 million.**\n\nThis calculation uses the principle of expected value, weighting the possible outcomes by their probabilities.\n\n\n\n",
-      "isCorrect": false,
-      "judge_response": "No"
+      "isCorrect": true,
+      "judge_response": "yes"
     },
     {
       "question": "A firm trading at a 20x P/E acquires a target at 10x P/E using 50% new shares and 50% debt. What interest rate on the borrowed funds would keep the deal neutral to earnings per share?",
@@ -339,7 +339,7 @@
       "answer": "15%",
       "response": "Here's how to calculate the interest rate needed for an earnings-neutral deal, broken down concisely:\n\n**Understanding the Goal:** We need the interest expense on the debt to *exactly* offset the dilution from issuing new shares.\n\n**Let's use variables:**\n\n*   **EPS(Acquirer):** Earnings Per Share of the acquiring firm.\n*   **P/E(Acquirer):** 20x\n*   **EPS(Target):** Earnings Per Share of the target firm.\n*   **P/E(Target):** 10x\n*   **Shares Outstanding (Acquirer):**  Let's assume 100 for simplicity.\n*   **Interest Rate:**  The unknown we're solving for (let's call it 'i')\n*   **Debt Amount:**  Assumed to be equal to the value of shares issued (50% of the deal)\n*   **Share Issuance:** 50% of the deal\n\n**Steps:**\n\n1.  **Calculate Pre-Deal Combined EPS:**\n    *   Target's EPS = Acquirer's EPS / P/E(Acquirer) * P/E(Target) = EPS(Acquirer) / 2\n    *   Combined EPS (pre-deal dilution) = EPS(Acquirer) + Target's EPS = 1.5 * EPS(Acquirer)\n\n2.  **Calculate New Shares Issued:**\n    *   The value of shares issued is equal to the debt amount.\n    *   New Shares = Debt / (Share Price of Acquirer) = Debt / (EPS(Acquirer) * P/E(Acquirer)) = Debt / (20 * EPS(Acquirer))\n\n3.  **Diluted EPS:**\n    *   Diluted EPS = Combined EPS / (1 + % of new shares)\n    *   % of new shares = (New Shares / Original Shares) = New Shares / 100\n\n4.  **Interest Expense Offset:**\n    *   The interest expense must equal the dilution in EPS.\n    *   Interest Expense = Debt * i\n    *   Dilution per share = EPS(Acquirer) - Diluted EPS\n\n5.  **Equate Interest Expense to Dilution:**\n    *   Debt * i = Dilution per share * New Shares \n\n**Solving for 'i' (the interest rate):**\n\nAfter substituting and simplifying, the formula becomes:\n\n**i = (EPS(Acquirer) * (New Shares / 100)) / Debt**\n\nSince Debt = New Shares * Share Price, and Share Price = EPS(Acquirer) * 20, we get:\n\n**i = (EPS(Acquirer) * (New Shares / 100)) / (New Shares * EPS(Acquirer) * 20) = 1 / 2000 = 0.0005**\n\n**Therefore, the interest rate on the debt would need to be 0.05% to keep the deal neutral to earnings per share.**\n\n\n\n**Important Note:** This is a simplified calculation. Real-world M&A deals involve many more complexities (synergies, transaction costs, integration costs, etc.). This calculation isolates only the EPS impact of the financing structure.",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "If a business is trading at 15x its earnings and acquires a target valued at 7x earnings, does this transaction increase or decrease the acquirer's earnings per share?",
@@ -347,7 +347,7 @@
       "answer": "Unknown unless deal is 100%, where deal would be accretive",
       "response": "Generally, this transaction will **decrease** the acquirer's earnings per share (EPS) in the short term. Here's why:\n\n* **Dilution:** The acquirer is paying a higher multiple (15x) for the target than its own valuation (7x). This means they're essentially \"overpaying\" relative to earnings.\n* **Math:** While the total earnings *increase* with the acquisition, the *increase in shares outstanding* (used to pay for the target) is proportionally larger, leading to a lower EPS.\n\n**However:** Long-term, if the acquisition is successful and the combined company grows earnings, EPS could increase. But the *initial* impact is usually dilutive.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Imagine a firm valued at 600M, with 400M in senior secured notes and an additional 300M in junior secured notes. How would each note class be priced based on this valuation?",
@@ -355,15 +355,15 @@
       "answer": "First lien trades at 100c, second lien trades at 66.7c",
       "response": "Here's how those note classes would likely be priced, given the $600M valuation and $700M of debt (over-leveraged situation):\n\n**Understanding the Hierarchy**\n\n* **Senior Secured Notes ($400M):** These have first claim on the firm's assets in a bankruptcy scenario.\n* **Junior Secured Notes ($300M):** These are second in line to assets, *after* the senior notes are fully satisfied.\n\n**Pricing in this Scenario (Likely Deep Discount)**\n\nBecause the debt exceeds the firm's value, both note classes will trade at a *significant* discount to par (face value). Here's a reasonable estimate:\n\n* **Senior Secured Notes:**  Expect pricing in the **30-50 cents on the dollar** range (30-50%).  They're first in line, so they'll recover *something*, but not the full $400M.  A price of 40 cents would imply a market value of $120M.\n* **Junior Secured Notes:** Expect pricing in the **10-20 cents on the dollar** range (10-20%).  They're much further down the priority stack and face a higher risk of losing principal. A price of 15 cents would imply a market value of $45M.\n\n**Key Considerations:**\n\n* **Recovery Rate Estimates:**  The exact pricing depends on estimated recovery rates in a liquidation.  Analysts will project what percentage of the principal each class might recover.\n* **Market Sentiment:**  Overall market conditions and investor risk appetite will influence pricing.\n* **Future Expectations:** If investors believe the firm can significantly improve its performance, prices might be slightly higher.\n\n\n\n**Important Disclaimer:** I am an AI and cannot provide financial advice. This is a simplified illustration. Actual pricing would require detailed financial analysis and is subject to market forces.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "A business earns $200 in sales per period, with a 25% gross margin. Which option boosts profit most: increasing unit sales by 16%, raising prices by 4%, or cutting overhead by $2?",
       "question_type": "conceptual",
       "answer": "Price and volume",
       "response": "Here's the breakdown to determine which option boosts profit the most:\n\n**1. Current Profit:**\n\n*   Sales: $200\n*   Gross Margin: 25% of $200 = $50\n*   Assuming overhead is currently *not* stated, current profit is $50.\n\n**2. Option 1: Increase Unit Sales by 16%**\n\n*   New Sales: $200 * 1.16 = $232\n*   New Gross Profit: $232 * 0.25 = $58\n*   Profit Increase: $58 - $50 = **$8**\n\n**3. Option 2: Raise Prices by 4%**\n\n*   New Sales: $200 * 1.04 = $208\n*   New Gross Profit: $208 * 0.25 = $52\n*   Profit Increase: $52 - $50 = **$2**\n\n**4. Option 3: Cut Overhead by $2**\n\n*   Profit Increase: **$2** (This is a direct increase as it impacts the bottom line)\n\n**Conclusion:**\n\n**Increasing unit sales by 16% boosts profit the most ($8)**. It provides a significantly larger return than either the price increase or overhead cut.\n\n\n\n",
-      "isCorrect": false,
-      "judge_response": "No"
+      "isCorrect": true,
+      "judge_response": "yes"
     },
     {
       "question": "Suppose you have two investment opportunities, both offering a 22% levered IRR. Option X will be financed at 4x leverage, while Option Y will be financed at 7x leverage, and both require the same equity investment. Which investment has  greater financial risk?",
@@ -371,7 +371,7 @@
       "answer": "Option Y",
       "response": "Option Y has greater financial risk. Here's why:\n\n**Leverage amplifies both gains *and* losses.** While both options have the same levered IRR, the higher leverage in Option Y (7x vs 4x) means:\n\n*   **Greater sensitivity to changes in cash flow:** A small downturn in project performance will have a much larger negative impact on equity returns in Option Y.\n*   **Higher debt service obligations:** More debt means larger fixed payments, increasing the risk of default if the project underperforms.\n\nEven with the same IRR, **higher leverage = higher financial risk.**\n\n\n\n",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "If Company B funds an acquisition with debt, how could the resulting interest expenses and added income change its net earnings and shareholder returns (return on equity)?",
@@ -379,15 +379,15 @@
       "answer": "Decrease Net Income and increase return on equity",
       "response": "Here's how debt-funded acquisitions impact net earnings and shareholder returns (ROE):\n\n**Net Earnings:**\n\n* **Initially Lower:** Interest expense is a cost of borrowing. More debt = more interest, directly *reducing* net income.\n* **Potential for Increase (Long-Term):** If the acquired company generates enough *additional* earnings to exceed the interest expense, net income can eventually *increase*. This relies on successful integration and synergies.\n\n**Return on Equity (ROE):**\n\n* **Increased Financial Leverage:** Debt increases financial leverage (assets/equity).  Higher leverage can *magnify* ROE, even with lower net income.\n* **However...Increased Risk:** Higher leverage also increases financial risk. If the acquisition *underperforms*, the fixed interest payments become a heavier burden, significantly *decreasing* ROE.\n* **The Formula:** ROE = Net Income / Shareholder Equity.  Debt affects *both* sides of this equation, making the overall impact complex.\n\n\n\n**In short:** Debt-funded acquisitions are a double-edged sword. They *can* boost returns, but also significantly *increase* risk. Success depends on the acquired company's performance and effective integration.\n\n\n\n",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "As a company takes on more debt, what happens to the company's WACC?",
       "question_type": "conceptual",
       "answer": "Decrease WACC",
       "response": "Generally, as a company takes on more debt, its **WACC (Weighted Average Cost of Capital) increases**. Here's why:\n\n* **Cost of Debt is Usually Lower than Cost of Equity:** Debt typically has a lower interest rate than the return investors require for equity (stock).\n* **Increased Financial Risk:** More debt means higher financial risk. This makes both debt *and* equity investors demand a higher return to compensate for that risk.\n* **WACC Formula:** WACC is calculated as: (Weight of Equity * Cost of Equity) + (Weight of Debt * Cost of Debt * (1 - Tax Rate)).  While increasing debt *initially* lowers WACC due to the cheaper cost of debt, the *increased* cost of equity (due to higher risk) and eventually the increased cost of debt itself (as lenders perceive more risk) will outweigh that benefit. \n\n**However, there's a limit.** Initially, *moderate* increases in debt can *decrease* WACC. But beyond a certain point (optimal capital structure), further debt increases the risk so much that WACC rises.\n\n\n\n",
-      "isCorrect": true,
-      "judge_response": "Yes"
+      "isCorrect": false,
+      "judge_response": "no"
     },
     {
       "question": "Two similar firms have identical operations but different funding methods: Firm A raises 60% through equity and 40% via debt, whereas Firm B relies solely on equity. How does Firm A's debt financing affect its cash flow statement versus Firm B?",
@@ -395,7 +395,7 @@
       "answer": "CFO decreased, CFI unchanged, CFF potentially decreased",
       "response": "Here's how Firm A's debt financing impacts its cash flow statement compared to Firm B:\n\n**Firm A (Debt & Equity):**\n\n* **Cash Flow from Financing (Inflow):** Will show a positive cash flow from the initial debt issuance (borrowing money).\n* **Cash Flow from Operating (Outflow):** Will have interest expense payments, reducing net income and resulting in a cash outflow.\n* **Tax Shield:** Interest expense is tax-deductible, creating a tax shield that *increases* cash flow from operations (though the impact is less than the initial outflow).\n* **Repayment of Principal:** When debt is repaid, it's a cash outflow in the financing section.\n\n**Firm B (All Equity):**\n\n* **No Interest Expense:** No cash outflow for interest payments.\n* **No Tax Shield:** No benefit from a tax shield.\n* **No Debt Issuance/Repayment:** No cash flows related to borrowing or repaying debt.  Any needed funds must come from retained earnings or new equity issuance.\n\n\n\n**In short:** Firm A's debt creates *both* cash outflows (interest & principal) and a potential cash inflow (tax shield). Firm B has simpler cash flows, avoiding debt-related items altogether.  \n\n\n\n**Important Note:** Whether Firm A's debt financing is *beneficial* overall depends on if the tax shield and potential benefits of debt outweigh the costs of interest and financial risk.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "If we increase annual depreciation by 25 dollars, what effect does this have on the discounted cash flow analysis?",
@@ -403,15 +403,15 @@
       "answer": "Increase valuation",
       "response": "Increasing annual depreciation by $25 has the following effects on a Discounted Cash Flow (DCF) analysis:\n\n* **Lower Net Income:** Depreciation is an expense, so increasing it *reduces* net income in each year.\n* **Lower Cash Flow:** While depreciation is a non-cash expense (it doesn't involve actual cash leaving the company), it *reduces* taxable income. This leads to lower tax payments, *increasing* cash flow. However, the *net* effect is a *decrease* in cash flow because the reduction in net income is greater than the tax savings.\n* **Lower Valuation:** Because DCF relies on projecting future cash flows, lower cash flows translate directly into a *lower* present value and therefore a *lower* overall valuation of the asset or company. \n\n**In short: Increased depreciation = Lower DCF Valuation.**\n\nThe *magnitude* of the effect depends on the discount rate and the remaining life of the asset. A higher discount rate or shorter remaining life will lessen the impact.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "A manufacturing company has an EV/EBITDA multiple of 12x and a P/E ratio of 12x. From this information, how much net debt does this company have? ",
       "question_type": "conceptual",
       "answer": "EBITDA * 6",
       "response": "Here's how we can estimate the company's net debt, given the EV/EBITDA and P/E ratios:\n\n**Understanding the Relationships**\n\n* **EV/EBITDA = Enterprise Value / EBITDA**  This tells us how much the entire company is valued at relative to its operating earnings.\n* **P/E Ratio = Market Capitalization / Net Income** This tells us how much investors are willing to pay for each dollar of earnings.\n* **Enterprise Value (EV) = Market Capitalization + Net Debt**  This is a key relationship we'll use. Net Debt = Total Debt - Cash & Cash Equivalents\n\n**Calculation**\n\n1. **Assume EBITDA = Net Income:**  Since both ratios are 12x, a simplifying assumption is that EBITDA is approximately equal to Net Income. This isn't *always* true (depreciation & amortization create differences), but it allows us to estimate with the limited information.\n\n2. **Let's assume Net Income = $100 million** (This is for illustrative purposes - the actual number doesn't matter for the *proportion*).\n\n3. **Market Capitalization:**  P/E Ratio = Market Cap / Net Income  =>  Market Cap = P/E * Net Income = 12 * $100 million = $1,200 million\n\n4. **Enterprise Value:** EV/EBITDA = EV / EBITDA => EV = EV/EBITDA * EBITDA. Since we assumed EBITDA = Net Income, EV = 12 * $100 million = $1,200 million\n\n5. **Net Debt:** EV = Market Cap + Net Debt => Net Debt = EV - Market Cap = $1,200 million - $1,200 million = **$0 million**\n\n**Therefore, based on these ratios and our assumptions, the company appears to have approximately $0 in net debt.**\n\n\n\n**Important Considerations:**\n\n*   **Simplifying Assumption:** The biggest caveat is assuming EBITDA = Net Income. This is unlikely to be *exactly* true.\n*   **Industry:** Different industries have different typical debt levels.\n*   **Growth Stage:** A fast-growing company might have more debt to fund expansion.\n\n\n\n",
-      "isCorrect": false,
-      "judge_response": "No"
+      "isCorrect": true,
+      "judge_response": "yes"
     },
     {
       "question": "Imagine two comparable firms that earn identical operating income. Firm X is financed with 60% equity and 40% debt, while Firm Y is completely equity-funded. How does Firm X's interest expense on debt affect its net income relative to Firm Y's net income?",
@@ -419,7 +419,7 @@
       "answer": "Firm X has less net income relative to Firm Y",
       "response": "Firm X's net income will be **lower** than Firm Y's net income. \n\nHere's why:\n\n* **Interest Expense is Deductible:** Interest expense is tax-deductible. This reduces Firm X's taxable income.\n* **Lower Taxes Paid:** Because of the deduction, Firm X pays less in taxes than Firm Y.\n* **Net Effect:** While taxes are lower, the *initial* interest expense reduces net income *before* considering the tax shield. The tax shield partially offsets this, but doesn't eliminate it. \n\n**In short: Interest expense directly reduces net income, even *with* the tax benefit.**\n\n\n\n",
       "isCorrect": true,
-      "judge_response": "Yes"
+      "judge_response": "yes"
     },
     {
       "question": "A firm acquires a piece of machinery for 250 with cash. Demonstrate how this transaction affects the primary financial statements.",
@@ -459,7 +459,7 @@
       "answer": "On the income statement, pre-tax income is up by 200. With a tax rate of 35% net income is up by 130. On the cash flow statement, net income is up by 130, but 100 needs to be subtracted since it was non-cash revenue (increase in accounts receivable), so CFO is up by 30. There are no changes in CFF or CFI, so cash is up by 30. On the balance sheet cash is up by 30, accounts receivable is up by 100 and shareholders equity is up by 130 from net income or retained earnings.",
       "response": "Here's how each statement changes, broken down concisely:\n\n**1. Income Statement:**\n\n*   **Revenue:** Increases by $200.\n*   **Tax Expense:** Increases by $200 * 35% = $70.\n*   **Net Income:** Increases by $200 - $70 = $130.\n\n**2. Balance Sheet:**\n\n*   **Assets:**\n    *   **Cash:** Increases by $100.\n    *   **Accounts Receivable:** Increases by $100 (representing the credit sale).\n*   **Liabilities/Equity:**\n    *   **Retained Earnings:** Increases by $130 (due to the increase in net income).\n    *   **Tax Payable:** Increases by $70 (the amount of tax owed).\n\n**3. Cash Flow Statement:**\n\n*   **Cash Flow from Operating Activities:** Increases by $100 (the cash received from the sale). The revenue recognition itself isn't cash flow, only the *cash* portion is.\n\n\n\n**In summary:** The sale boosts revenue and ultimately net income, increasing retained earnings. It also creates a short-term receivable and a tax liability. Only the cash received impacts the cash flow statement immediately.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Walk me through how the 3 statements are impacted by a merger.",
@@ -475,7 +475,7 @@
       "answer": "There is no immediate impact on the income statement since revenue has yet to be recognized at this point. On the Cash flow statement, cash flow from operations is down by $300 for the increase in inventory. The issuance of debt reduces cash flow from financing by $300 leaving net cash unchanged. On the balance sheet, inventory increases assets by $300 and debt increases the liabilities by $300.",
       "response": "Here's how a $300 inventory purchase financed with new debt affects the three financial statements:\n\n**1. Income Statement:** No immediate impact. The purchase itself isn't an expense. Cost of Goods Sold (COGS) will be affected *later* when the inventory is sold.\n\n**2. Balance Sheet:**\n\n*   **Assets:** Inventory increases by $300.\n*   **Liabilities:** Debt (likely a note payable) increases by $300.\n*   **Accounting Equation:** Assets = Liabilities + Equity remains balanced.\n\n**3. Statement of Cash Flows:**\n\n*   **Financing Activities:**  Increase of $300 from proceeds of new debt.\n*   **Investing Activities:** Decrease of $300 from the purchase of inventory. \n\n**In short:** The transaction is a balance sheet transaction with an offsetting impact on the statement of cash flows. The income statement is unaffected at the time of purchase.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "Describe the outcome of a $100 increase in depreciation on the three financial statements, assuming an 12% tax rate.",
@@ -483,7 +483,7 @@
       "answer": "On the income statement, pre-tax income is down by 100, net income is down by 88 (100 * (1 - 0.12)). On the cash flow statement, net income is down by 88 and 100 is added back since depreciation is a non-cash expense. Cash is up by 12. On the balance sheet, cash is up by 12, PP&E is down by 100, so assets are down by 88. This matches with liabilities + equities, as retained earnings is down by 88, which is a part of shareholders equity,.",
       "response": "Here's how a $100 increase in depreciation impacts the three financial statements, assuming a 12% tax rate:\n\n**1. Income Statement:**\n\n*   **Depreciation Expense:** Increases by $100.\n*   **Tax Expense:** Decreases by $12 ($100 * 12%).  *Lower expense = lower tax.*\n*   **Net Income:** Increases by $88 ($100 - $12).\n\n**2. Balance Sheet:**\n\n*   **Accumulated Depreciation:** Increases by $100 (a contra-asset account).\n*   **Net Book Value (of the related asset):** Decreases by $100.\n*   **Retained Earnings:** Increases by $88 (due to the increase in Net Income).\n\n**3. Statement of Cash Flows:**\n\n*   **Cash Flow from Operations:** Increases by $100. *Depreciation is a non-cash expense, so it's added back when calculating cash flow from operations.*\n\n\n\n**In short:** Higher depreciation lowers reported profit (initially) but *increases* cash flow and retained earnings after considering the tax shield.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "The firm currently has 200 of PIK debt at an 10% interest rate and faces a 35% tax rate, how will this flow through the balance sheet, income statement, and cash flow statement?",
@@ -499,7 +499,7 @@
       "answer": "On the income statement, a gain on sale increases net income by $25 * (1-0.25) = $18.75. On the cash flow statement, net income in CFO is increased by $18.75, however we subtract the non-cash $25 gain on sale, leaving CFO down by $6.25. Sale of asset increases cash flow from investing by $75, resulting in a net cash increase of $68.75. On the balance sheet, cash increases by $68.75 and PPE is decreased by $50, leaving assets up by $18.75. Shareholders equity is increased by $18.75 from the increase in net income.",
       "response": "Here's how the sale of the asset impacts the financial statements:\n\n**1. Income Statement:**\n\n*   **Gain on Sale:** $25 ($75 Selling Price - $50 Carrying Value). This increases net income.\n*   **Tax Expense:** $6.25 ($25 Gain x 25% Tax Rate). This increases tax expense, offsetting some of the gain.\n*   **Net Income:** Increases by $18.75 ($25 - $6.25).\n\n**2. Balance Sheet:**\n\n*   **Asset:** The asset is removed from the balance sheet.\n*   **Cash:** Increases by $75 (assuming a cash sale).\n*   **Deferred Tax Liability:** Created for the tax impact of the gain. The gain is recognized for financial reporting purposes, but tax is paid later. \n    *   Calculation: $6.25 (25% of $25 gain)\n\n**3. Statement of Cash Flows:**\n\n*   **Cash Flow from Investing Activities:** Increases by $75 (cash received from the sale).\n\n\n\n**In summary:** This sale generates a profit, increases cash, and creates a deferred tax liability.\n\n\n\n",
       "isCorrect": false,
-      "judge_response": "No"
+      "judge_response": "no"
     },
     {
       "question": "A firm borrowed $300 in order to buy goods. It later sold those goods for $600, incurred $150 in operating expenses, paid 6% interest on the loan, and repaid 12% of the original principal. Assume a tax rate of 10% How are the income statement, balance sheet, and cash flow statement affected after this transaction?",

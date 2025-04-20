@@ -12,8 +12,8 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 client = openai.OpenAI()
 
 MODEL_NAME = "gpt-4.1"
-INPUT_DIRECTORY = "C:\\Users\\gabri\\Documents\\GitHub\\FinanceQA-Agents\\results_conceptual\\agentic\\raw\\run3"
-OUTPUT_DIRECTORY = "C:\\Users\\gabri\\Documents\\GitHub\\FinanceQA-Agents\\results_conceptual\\agentic\\processed\\run3_corrected"
+INPUT_DIRECTORY = ""
+OUTPUT_DIRECTORY = ""
 os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
 
 BATCH_SIZE = 10
