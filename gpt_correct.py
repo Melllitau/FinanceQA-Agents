@@ -37,7 +37,7 @@ def build_messages(answer, response):
                 f"\"{answer}\"\n\n"
                 f"And this given response:\n\n"
                 f"\"{response}\"\n\n"
-                f"Does the given response align with and satisfy the reference answer, even if written differently or in a more elaborate, wordy format? "
+                f"Does the given response align with and satisfy the reference answer, even if written differently or in a more elaborate, wordy format. "
                 f"Reply strictly with 'yes' or 'no'. "
                 f"You must answer 'yes' if the given response clearly points to the same final answer as the reference, even if it includes additional explanation, steps, or phrasing differences. "
                 f"For mathematical results, you must tolerate small numerical differences caused by rounding—answers that differ by up to ±1 should still be considered correct and marked as 'yes'."
